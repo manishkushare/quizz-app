@@ -212,7 +212,7 @@ class Quiz {
   }
 
   restartQuizz() {
-    let quizone = new Quiz(root, nextBtn, finalScore, [question1, question2]);
+    let quizone = new Quiz(root, nextBtn, finalScore, [question1, question2,question3.question4,question5,question6,question7,question8,question9,question10]);
     quizone.rootUI();
 
     document.querySelector(".final-score").innerText = "";
@@ -230,5 +230,5 @@ class Quiz {
   }
 }
 
-let quizOne = new Quiz(root, nextBtn, finalScore, [question1, question2]);
+let quizOne = new Quiz(root, nextBtn, finalScore, [question1, question2,question3.question4,question5,question6,question7,question8,question9,question10]);
 quizOne.rootUI();
