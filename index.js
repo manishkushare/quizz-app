@@ -6,7 +6,7 @@ console.log("working");
 
 // methods
 // 1. isCorrect() = to cheack whether the anser given by user is correct ot not
-let hero = document.querySelector(".hero");
+let hero = document.querySelector(".hero-flex");
 let components = document.querySelector(".components");
 components.style.display = "none";
 let start = document.querySelector(".start");
