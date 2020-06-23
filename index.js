@@ -142,6 +142,11 @@ question3.render();
 question4.render();
 question5.render();
 question6.render();
+question7.render();
+question8.render();
+question9.render();
+question10.render();
+
 
 let root = document.getElementById("root");
 let nextBtn = document.querySelector(".btn");
@@ -212,7 +217,7 @@ class Quiz {
   }
 
   restartQuizz() {
-    let quizone = new Quiz(root, nextBtn, finalScore, [question1, question2,question3.question4,question5,question6,question7,question8,question9,question10]);
+    let quizone = new Quiz(root, nextBtn, finalScore, [question1, question2,question3,question4,question5,question6,question7,question8,question9,question10]);
     quizone.rootUI();
 
     document.querySelector(".final-score").innerText = "";
@@ -230,5 +235,5 @@ class Quiz {
   }
 }
 
-let quizOne = new Quiz(root, nextBtn, finalScore, [question1, question2,question3.question4,question5,question6,question7,question8,question9,question10]);
+let quizOne = new Quiz(root, nextBtn, finalScore, [question1, question2,question3,question4,question5,question6,question7,question8,question9,question10]);
 quizOne.rootUI();
